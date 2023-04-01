@@ -9,6 +9,4 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HelloResponseDto {
     private final String name;
     private final int amount;
-
-
 }
