@@ -42,6 +42,13 @@ dependencies {
 
     //h2 db 의존성
     implementation('com.h2database:h2')
+
+    //스프링 시큐리티
+    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
+
+    //머스타치
+    implementation('org.springframework.boot:spring-boot-starter-mustache')
+
 }
 
 test {
